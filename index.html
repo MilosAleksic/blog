@@ -19,7 +19,7 @@
   <!--   open sans & lato font import -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic,700,700italic,300italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
@@ -65,7 +65,8 @@
             <div class="blog-post">
               <h2 class="blog-post-title"><a href="blog-post-link">Sample blog post</a></h2>
               <p class="blog-post-meta"><a type="button" class="btn btn-danger" href="blog-post-link#comments">30 comments</a> January 1, 2014 by <a href="#">Mark</a></p>
-
+              
+              <img src="img/mi.jpg"></img>
               <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
               <hr>
               <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
@@ -130,10 +131,18 @@
 
           </div><!-- /.blog-main -->
 
-          <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="col-sm-4 blog-sidebar">
             <div class="sidebar-module sidebar-module-inset">
-              <h4>About</h4>
-              <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+              <div id="subscribe-box">
+                <h4>Like what you're reading? Go VIP.</h4>
+                <p>Join today to receive instant updates, free learning resources, and a bunch of other awesome stuff. Oh by the way, I hate spam so don't worry about receiving any of that from me.</p>
+                  <form role="form">
+                    <div class="form-group">
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                      <p><a type="submit" class="btn btn-default">Join for free</a></p>
+                    </div>
+                  </form>
+              </div>
             </div>
             <div class="sidebar-module">
               <h4>Archives</h4>
