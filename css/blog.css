@@ -29,6 +29,10 @@ h2 {
   color: #555;
 }
 
+.center {
+  text-align: center;
+}
+
 /*
  * Override Bootstrap's default container.
  */
@@ -96,6 +100,7 @@ h2 {
     padding-bottom: 20px;
 }
 
+
 /* Sidebar modules for boxing content */
 #subscribe-box {
   padding: 15px 14px;
@@ -114,6 +119,18 @@ h2 {
 #subscribe-box .form-group {
   padding-top: 15px;
 }
+
+#subscribe-box .btn-warning {
+background-color: #D35400;
+text-transform: uppercase;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+#subscribe-box .btn-warning:hover {
+  background-color: #EC971F;
+}
+
 .sidebar-module {
   padding: 15px;
   margin: 0 -15px 15px;
@@ -184,6 +201,9 @@ h2 {
   font-weight: 300;
 }
 
+.blog-post-meta .btn-danger:hover {
+background-color: #FF1C05;
+}
 /*
  * Footer
  */
